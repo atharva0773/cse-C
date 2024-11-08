@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+<script>
+    let b=fetch('https://api.github.com/users/atharva0773')
+    async function getdata(){
+   try{ const data= await b
+    gd = await data.json()
+    console.log(gd)
+    }catch(error){
+        console.log("error")
+    }
+}
+
+getdata()
+let div=document.createElement("div")
+    div.id="div";
+    document.body.appendChild(div)
+
+let user_name = document.createElement("h2")
+user_name.id="name"
+div.appendChild(user_name)
+document.getElementById("name").innerHTML= <h2> gd.login</h2>
+
+</script>
+</html>
