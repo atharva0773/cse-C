@@ -1,0 +1,13 @@
+firstly react is known as f-blot  ---->faxjs --->react 
+firts version ---> 2013(meta) 
+firstly deploy by jordon + teams (meta) 
+latest version (18.3.1) -->(x.y.z) x is major(large scale changes), y is minor(some changes), z is patch(little changes) 
+react is single page application 
+react runs by two method:
+
+(i) CDN--->(content delivery network)
+(ii) BundlQ :
+ 
+
+
+ reconsiliation uses diff algorithm

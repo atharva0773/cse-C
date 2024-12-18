@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page </title>
+    <style>
+        button{
+            color: white;
+            background-color: greenyellow;
+            border-radius: 5px;
+        }
+        
+        div{
+            border: solid rgb(170, 169, 169) 30px;
+        }
+        form{
+            box-shadow: 10px 5px 5px rgb(134, 134, 134);
+        }
+    
+      </style>
+</head>
+<body>
+    <div >
+            <form action="">
+                <h2>login</h2>
+                <label for="text">USERNAME: </label>
+                <input type="text" id="user_name"><br><br>
+                <label for="text">PASSWORD:  </label>
+                <input type="text" id="password"><br><br>
+                <button   id="button">login</button>
+            </form>
+    </div>
+</body>
+<script>
+
+   
+
+ const username=document.getElementById('user_name').value
+ const password=document.getElementById('password').value
+ 
+ if(username&&password){
+    alert("login susscesfully");
+    window.location.href="dashbord.html"
+
+ }
+ else{
+    alert("please enter valid password")
+ }
+
+</script>
+</html>

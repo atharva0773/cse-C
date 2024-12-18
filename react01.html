@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>react</title>
+</head>
+<body>
+    <div id="parent">
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+            <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+                <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+                  <script type="text/babel">
+                    const parent=document.getElementById("parent")
+                     const root=ReactDOM.createRoot(parent);
+                        // const h1=<h1>React CDN</h1>;
+                        //     const iteam1=<li>Hello</li>;
+                        //     const iteam2=<li>React</li>;
+                        //     const ul  =(<ul>{iteam1}{iteam2}</ul>);
+                            
+                            const container = <div>
+                                <ul> <li> iteam 1</li>
+                                    <li> iteam 2</li>
+                                    </ul>
+                                </div>
+                                root.render(container);
+                     
+                    //   const h1=React.createElement("h1",{},"React CDN");
+                    //     //  root.render(h1)
+                    //      const iteam1=React.createElement("li",{},"react")
+                    //    const iteam2=React.createElement("li",{},"CDN")
+                    //   const list=React.createElement("ul",{},iteam1,iteam2);
+                    // root.render([h1,list])
+
+        
+        // const h1= document.createElement("h1")
+        // h1.textContent="hello from react CDN"
+        // parent.appendChild(h1)
+        // const ul=document.createElement("ul");
+        // const li1=document.createElement("li")
+        // li1.textContent="Item 1"
+        // const li2=document.createElement("li")
+        // li2.textContent="Item 2"
+        // ul.appendChild(li1)
+        // ul.appendChild(li2)
+        // parent.appendChild(ul)
+
+       </script>
+    </div>
+</body>
+</html>
