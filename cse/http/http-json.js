@@ -9,10 +9,10 @@ const server =http.createServer((req,res)=>{
  const namedata=users.map((user)=>{
  return user.name
  })
- res.end(JSON.stringify(namedata))    // string ->>> object  ==>use JSON.stringfy 
-});                                //object ->>>string   ===>   JSON.parse
+ res.end(JSON.stringify(namedata))    // string ->>> object  ==>use JSON.parse
+});                                //object ->>>string   ===>   JSON.stringfy
 const port=4000;
 
 server.listen(port,()=>{
     console.log(`server is running on this port : ${port}`)
-});
+}); 

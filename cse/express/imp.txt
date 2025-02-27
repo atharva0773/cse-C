@@ -1,0 +1,5 @@
+get--> it retrive the data
+post-->  new creation
+put-->  replace
+patch--> minar change
+delete--> it is use to delete
